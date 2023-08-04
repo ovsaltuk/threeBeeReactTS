@@ -1,5 +1,5 @@
 export interface IEmployee {
-  avatar: string,
+  avatar_big: string,
   id: number,
   information: string,
   is_bookable?: boolean,

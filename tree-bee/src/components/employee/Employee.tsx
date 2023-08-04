@@ -10,7 +10,7 @@ interface EmployeeProps {
 export function Employee({ employee }: EmployeeProps) {
   return (
     <div className="employee">
-      <img src={employee.avatar} alt={employee.name} className="employee__img"/>
+      <img src={employee.avatar_big} alt={employee.name} className="employee__img"/>
       <h3 className="eployee__title">{employee.name}</h3>
       <span className="eployee__specialization" dangerouslySetInnerHTML={{__html: employee.specialization}}></span>
       <div className="employee__btn-wrapper">
