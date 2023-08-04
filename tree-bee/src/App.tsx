@@ -1,15 +1,14 @@
-import React, { useEffect} from 'react';
-import { getEmloyeesList } from './api/getEmployeeList';
+import { EmployeesList } from './components/EmployeesList';
+import './style.scss';
 
 
 
 function App() {
-  useEffect(() => {
-    getEmloyeesList.then(res => console.log(res));
-  })
 
   return (
-    <div className='container'></div>
+    <>
+      <EmployeesList />
+    </>
   );
 }
 

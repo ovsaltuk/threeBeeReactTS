@@ -1,0 +1,21 @@
+#rec608815931 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+  & .t396 {
+    display: none;
+  }
+  & * {
+    box-sizing: border-box !important;
+  }
+  & *:before {
+    box-sizing: border-box !important;
+  }
+
+  & *:after  {
+    box-sizing: border-box !important;
+  }
+}
